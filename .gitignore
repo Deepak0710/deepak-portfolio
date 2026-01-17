@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Unnecessary files and folders removed:
+# - .qodo/
+# - placeholder.svg
+# - robots.txt
+# - bun.lockb
+# - components.json
+# - dist/
+# - package-lock.json
+# - postcss.config.js
+# - tailwind.config.ts
+# - tsconfig.app.json
+# - tsconfig.node.json
+# - vite.config.ts
+# - README.md (updated)
+# - All source files in src/ retained
+# - favicon.svg (retained)
+# - node_modules/ (retained for dependencies)
+# - .gitignore (retained)
+# - package.json (retained)
+# - index.html (retained)
+# - tsconfig.json (retained)
