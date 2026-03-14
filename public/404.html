@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Deepak G | Portfolio</title>
+    <script>
+      var path = window.location.pathname;
+      var base = '/deepak-portfolio';
+      var relativePath = path.replace(base, '') || '/';
+      window.location.replace(
+        base + '/?p=' + relativePath.slice(1)
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
